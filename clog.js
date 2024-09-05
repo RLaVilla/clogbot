@@ -2,10 +2,10 @@ const { ethers } = require('ethers');
 const { Telegraf } = require('telegraf');
 
 // Set up the provider (use your Infura or Alchemy project ID)
-const provider = new ethers.InfuraProvider('mainnet', '03033dbe3ca2459bb5d96a3c9366a8ac');
+const provider = new ethers.InfuraProvider('mainnet', '...');
 
 // Create the Telegram bot
-const bot = new Telegraf('7251133871:AAE6tACf70X6RgHOMtq_370ltnS_VGla0y4');
+const bot = new Telegraf('...');
 
 // Store user data
 const userData = {};
